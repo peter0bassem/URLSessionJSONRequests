@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750FE02B21C7A8F3003BC0E4 /* BaseURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE02A21C7A8F3003BC0E4 /* BaseURLRequest.swift */; };
+		750FE03F21C7F042003BC0E4 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE03C21C7F03E003BC0E4 /* Products.swift */; };
+		750FE04021C7F042003BC0E4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE03D21C7F041003BC0E4 /* Data.swift */; };
+		750FE04121C7F042003BC0E4 /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE03E21C7F042003BC0E4 /* Json4Swift_Base.swift */; };
+		750FE04421C7F1FC003BC0E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE04221C7F1FB003BC0E4 /* User.swift */; };
+		750FE04521C7F1FC003BC0E4 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750FE04321C7F1FB003BC0E4 /* Messages.swift */; };
 		752F318521C6A74E0057D642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F318421C6A74E0057D642 /* AppDelegate.swift */; };
 		752F318721C6A74E0057D642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F318621C6A74E0057D642 /* ViewController.swift */; };
 		752F318A21C6A74E0057D642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752F318821C6A74E0057D642 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750FE02A21C7A8F3003BC0E4 /* BaseURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURLRequest.swift; sourceTree = "<group>"; };
+		750FE03C21C7F03E003BC0E4 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		750FE03D21C7F041003BC0E4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		750FE03E21C7F042003BC0E4 /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
+		750FE04221C7F1FB003BC0E4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		750FE04321C7F1FB003BC0E4 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		752F318121C6A74E0057D642 /* URLSessionJSONRequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionJSONRequests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752F318421C6A74E0057D642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		752F318621C6A74E0057D642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +72,12 @@
 				752F318B21C6A7500057D642 /* Assets.xcassets */,
 				752F318D21C6A7500057D642 /* LaunchScreen.storyboard */,
 				752F319021C6A7500057D642 /* Info.plist */,
+				750FE02A21C7A8F3003BC0E4 /* BaseURLRequest.swift */,
+				750FE03D21C7F041003BC0E4 /* Data.swift */,
+				750FE03E21C7F042003BC0E4 /* Json4Swift_Base.swift */,
+				750FE03C21C7F03E003BC0E4 /* Products.swift */,
+				750FE04321C7F1FB003BC0E4 /* Messages.swift */,
+				750FE04221C7F1FB003BC0E4 /* User.swift */,
 			);
 			path = URLSessionJSONRequests;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750FE02B21C7A8F3003BC0E4 /* BaseURLRequest.swift in Sources */,
+				750FE04521C7F1FC003BC0E4 /* Messages.swift in Sources */,
+				750FE04021C7F042003BC0E4 /* Data.swift in Sources */,
+				750FE03F21C7F042003BC0E4 /* Products.swift in Sources */,
 				752F318721C6A74E0057D642 /* ViewController.swift in Sources */,
 				752F318521C6A74E0057D642 /* AppDelegate.swift in Sources */,
+				750FE04121C7F042003BC0E4 /* Json4Swift_Base.swift in Sources */,
+				750FE04421C7F1FC003BC0E4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
